@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="messi_wc">Messi winning the World Cup</string>
+    <string name="leo_messi">Lionel Messi(2022)</string>
+    <string name="ronaldo_ucl">Ronaldo winning his 5th UCL</string>
+    <string name="ronaldo">Cristiano Ronaldo(2018)</string>
+    <string name="neymar_ucl">Neymar winning his 1st UCL</string>
+    <string name="neymar">Neymar Jr(2015)</string>
+</resources>
