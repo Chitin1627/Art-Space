@@ -86,7 +86,6 @@ fun ImageDetails(
                     color = MaterialTheme.colorScheme.background,
                 )
                 .padding(20.dp)
-
         )
     }
 
@@ -232,9 +231,6 @@ fun ButtonFunction() {
                 )
             }
         }
-
-
-
     }
 }
 
