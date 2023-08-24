@@ -73,11 +73,12 @@ fun ImageDetails(
     @StringRes photoDescription: Int,
     @StringRes nameOfThePerson: Int) {
     Surface(
-        shadowElevation = 5.dp,
+        shadowElevation = 6.dp,
         modifier = Modifier
             .height(500.dp)
             .width(350.dp)
-            .padding(start = 10.dp, end = 10.dp)
+            .padding(start = 10.dp, end = 10.dp),
+        color = MaterialTheme.colorScheme.surface
     ) {
         Image(
             painter = painterResource(id = painter),
@@ -95,7 +96,7 @@ fun ImageDetails(
         modifier = Modifier
             .padding(top = 20.dp)
             .background(
-                Color(203, 195, 227),
+                color = Color(203, 195, 227),
                 shape = RoundedCornerShape(16.dp)
             )
             .height(150.dp)
@@ -177,7 +178,7 @@ fun ButtonFunction() {
 
         Row (
             horizontalArrangement = Arrangement.SpaceBetween,
-            modifier = Modifier.padding(top = 10.dp)
+            modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
         ) {
             Button(
                 onClick = { buttonClickNumber-- },
